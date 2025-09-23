@@ -1,0 +1,10 @@
+@baseUrl = https://localhost:7105
+
+###
+GET {{baseUrl}}/cookie-minimal
+Cookie: session-id=xyz789
+
+
+###
+GET {{baseUrl}}/cookie-controller
+Cookie: session-id=xyz789

@@ -1,0 +1,12 @@
+@baseUrl = https://localhost:7105
+
+### Minimal API
+ 
+GET {{baseUrl}}/product-minimal 
+X-Api-Version: v1
+
+
+### Controller API
+ 
+GET {{baseUrl}}/product-controller 
+X-Api-Version: v1
