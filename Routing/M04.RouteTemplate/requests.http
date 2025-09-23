@@ -1,0 +1,46 @@
+@baseUrl = https://localhost:7007
+ 
+###
+{{baseUrl}}/product/20
+
+
+###
+{{baseUrl}}/date/2025-12-3
+
+
+###
+GET {{baseUrl}}
+
+###
+GET {{baseUrl}}/products
+
+### 
+GET {{baseUrl}}/users
+
+### 
+GET {{baseUrl}}/users/42
+
+
+###
+GET {{baseUrl}}/abxcd 
+
+###
+GET {{baseUrl}}/abxcd 
+
+###
+GET {{baseUrl}}/single/my/path/test/wire
+
+###
+GET {{baseUrl}}/single/my%2Fpath
+
+###
+GET {{baseUrl}}/double/my%2Fpath
+
+###
+GET {{baseUrl}}/123/name
+
+### 
+GET {{baseUrl}}/123%2F456/name
+
+###
+GET {{baseUrl}}/123+456/name
