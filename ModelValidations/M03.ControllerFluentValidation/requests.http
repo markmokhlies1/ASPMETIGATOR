@@ -1,0 +1,20 @@
+@baseUrl = https://localhost:7272
+
+
+
+POST {{baseUrl}}/api/products
+Content-Type: application/json
+
+{ 
+  "description": "High-end smartwatch with GPS",
+  "sku": "PRD-00121",
+  "price": 249.99,
+  "stockQuantity": 1 ,
+  "launchDate": "2025-06-01",
+  "category": "Electronics",
+  "imageUrl": "https://cdn.example.com/products/watch.jpg",
+  "weight": 0.4,
+  "warrantyPeriodMonths": 12,
+  "isReturnable": true,
+  "tags": ["smartwatch", "gps", "wearable"]
+}
