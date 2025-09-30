@@ -1,0 +1,21 @@
+@baseUrl = https://localhost:9191
+
+###
+GET {{baseUrl}}/api/bids
+
+###
+GET {{baseUrl}}/api/bids/d56d4c77-ff27-4196-a321-511ed183fea2
+
+###
+POST {{baseUrl}}/api/bids
+content-type: application/json
+
+{
+  "amount": 150.00,
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "telephone": "+1234567890",
+  "location": "Amman",
+  "address": "123 Rainbow Street"
+}

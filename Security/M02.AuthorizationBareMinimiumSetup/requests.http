@@ -1,0 +1,31 @@
+@baseUrl = https://localhost:5151
+
+
+###
+
+GET {{baseUrl}}/login
+
+###
+
+GET {{baseUrl}}/logout
+
+###
+
+GET {{baseUrl}}/user
+
+###
+
+GET {{baseUrl}}/secure
+
+###
+
+GET {{baseUrl}}/supervisor-only
+
+###
+
+GET {{baseUrl}}/admin-only
+
+###
+
+
+POST {{baseUrl}}/drive/bus
